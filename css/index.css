@@ -65,6 +65,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+@media(max-width:500px){
+
+}
+@media(max-width:800px){
+
+}
 body{
 	/* border: dashed red 4px; */
 	width: 100%;
