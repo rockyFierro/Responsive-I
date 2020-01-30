@@ -290,6 +290,15 @@ footer {
   .introduction-image {
     display: none;
   }
+	.services-header-img{
+		display: none;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+		}
+
+	}
 
   /*single column view for all things*/
   /*article headlines are flush left*/
@@ -319,4 +328,12 @@ footer {
     .upper-articles, .lower-articles {
       flex-direction: column;
     }
+		aside{
+			display: flex;
+			flex-direction: column;
+		}
+		aside img{
+			margin-top:4%;
+		}
+
   }
