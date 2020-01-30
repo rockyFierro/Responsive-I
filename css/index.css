@@ -278,6 +278,9 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+	li{
+		text-transform: uppercase;
+	}
 
   .logo {
     align-self: center;
