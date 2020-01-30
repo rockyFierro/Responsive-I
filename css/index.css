@@ -243,3 +243,17 @@ footer {
 }
 
 /*note to myself, don't forget to checkout a new branch before starting and commit often*/
+
+/*media queries for tablet and phone*/
+/*reverse navigation flow so logo is on top*/
+/*hide the large picture next to the h1*/
+@media screen and (max-width:800px;){
+
+}
+
+/*single column view for all things*/
+/*article headlines are flush left*/
+/*mid banner photo is scaled down*/
+/*contact is flush left 33%*/
+/**/
+/**/
