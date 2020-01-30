@@ -82,7 +82,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width:93%;
+	width:100%;
 }
 .navigation a{
 	text-decoration: none;
@@ -271,5 +271,24 @@ footer {
 /*article headlines are flush left*/
 /*mid banner photo is scaled down*/
 /*contact is flush left 33%*/
-/**/
-/**/
+@media screen and (max-width:500px) {
+	nav{
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.navigation{
+		flex-direction: column;
+		}
+	li{
+		margin-top: 10px;
+		border-top: 1px solid darkgrey;
+		width: 100%;
+		text-align: center;
+	}
+	header{
+	padding:0;
+	}
+	.upper-articles,.lower-articles{
+		flex-direction: column;
+	}
+}
