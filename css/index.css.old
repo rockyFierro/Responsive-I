@@ -1,0 +1,81 @@
+/*normalize */
+@import "../bower_components/normalize-css/normalize.css";
+
+/*minor resets*/
+@import "../css/customResets.css";
+
+/*desktop*/
+body {
+    display: grid;
+    grid-template-areas:
+        " . menu . "
+        " . header . "
+        " . content . "
+        " . address . "
+        " . footer . ";
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    grid-area: menu;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+ul a{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.logo{
+    margin: 1.5rem;
+    width: 25%;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: content;
+}
+
+address {
+    grid-area: address;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*tablet*/
+@media screen and (max-width:800px) {
+    nav{
+        flex-direction: column-reverse;
+    }
+}
+
+/*mobile */
+@media screen and (max-width:500px) {
+    nav ul{
+        flex-direction: column;
+        padding:0 50%;
+    }
+
+}
+/*design*/
+/*print*/
+/*monochrome toggle*/
+/*a11y*/
+/*reader friendly*/
+
+
